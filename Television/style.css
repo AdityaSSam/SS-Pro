@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    color: white;
+    padding: 10px 40px;
+    align-items: center;
+    background-color: #ff9100;
+    justify-content: space-between;
+}
+
+.right img {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #d8d5d5;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+#active {
+    color: white;
+}
+
+main {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#apple {
+    margin-top: 90px;
+}
+
+main h1 {
+    color: orange;
+    margin: 10px 0px;
+    font-weight: unset;
+    text-shadow: 1px 1px orangered;
+}
+
+main small {
+    color: gray;
+}
+
+main p {
+    color: #1f1e1e;
+    margin: 20px 0px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .card {
+    margin: 20px;
+    width: 240px;
+    height: 270px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: 20px;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+main .card img {
+    display: block;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card small {
+    font-size: 13px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.seaction-text {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #ffc0cb96;
+}
+
+footer {
+    padding: 20px 40px;
+    background-color: gray;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .one small {
+    display: block;
+    margin: 10px 0px;
+}
+
+.copy {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    font-family: arial;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 60px;
+    transition: 0.4s;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+.content:hover {
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.content h1 {
+    font-weight: unset;
+    margin: 40px 0px;
+}
+
+.icons {
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons i {
+    color: white;
+}
+
+.whatsapp {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: #0eee0e;
+}
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: royalblue;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: #f00028;
+}
+
+.twitter {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: royalblue;
+}
